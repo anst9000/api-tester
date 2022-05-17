@@ -1,0 +1,27 @@
+{
+  "name": "api-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "Anders Strömberg <acke@acke.site>",
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.18.2",
+    "@codemirror/commands": "^0.18.3",
+    "@codemirror/lang-json": "^0.18.0",
+    "@codemirror/view": "^0.18.17",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "pretty-bytes": "^5.6.0"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "snowpack": "^3.5.9"
+  }
+}
