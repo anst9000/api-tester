@@ -1,7 +1,7 @@
-import "bootstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
-import axios from "axios"
-import prettyBytes from "pretty-bytes"
+import "./node_modules/bootstrap"
+import "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+import axios from "./node_modules/axios"
+import prettyBytes from "./node_modules/pretty-bytes"
 import setupEditors from "./setupEditor"
 
 const form = document.querySelector("[data-form]")
